@@ -1,0 +1,29 @@
+body, html{
+    background-color: #1F2937;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.container {
+    border-style: solid;
+    position: relative;
+    top: 7px;
+    border-radius: 10px;
+    width: 800px;
+    position: relative;
+    left: 600px;
+    border-color: #3882F6;
+    background-color: #3882F6;;
+}
+.Intro-Header{
+    text-align: center;
+    color: white;
+}
+img{
+    border-radius: 50%;
+    position: relative;
+    top: 65px;
+    position: relative;
+    left: 900px;
+}
+    
