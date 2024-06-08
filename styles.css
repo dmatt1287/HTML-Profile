@@ -1,29 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
 body, html{
-    background-color: #1F2937;
+    background-color: rgb(56, 81, 122, 0.93);
     padding: 0;
     margin: 0;
     overflow-x: hidden;
 }
 .container {
-    border-style: solid;
-    position: relative;
-    top: 7px;
-    border-radius: 10px;
-    width: 800px;
-    position: relative;
-    left: 600px;
-    border-color: #3882F6;
-    background-color: #3882F6;;
+ 
 }
 .Intro-Header{
-    text-align: center;
+    position: relative;
+    left: 65px;
     color: white;
+    position: relative;
+    top: 250px;
+    font-family: Alegreya;
 }
 img{
     border-radius: 50%;
     position: relative;
-    top: 65px;
+    bottom: 100px;
     position: relative;
-    left: 900px;
+    left: 45px;
+    border-color: black;
+    border-style: solid;
 }
     
