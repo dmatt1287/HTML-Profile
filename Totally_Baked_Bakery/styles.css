@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    background-color: rgb(0, 180, 231);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: alegreya;
+}
+.headerLogo {
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-color: rgb(242, 11, 151);
+    border-radius: 10px;
+    position: relative;
+    left: 2px;
+    position: relative;
+    top: 10px;
+}
+  .nav-links{
+      display: flex;
+      flex-direction:row;
+      justify-content: space-evenly;
+      position: relative;
+      left: 275px;
+      position: relative;
+      bottom: 300px;
+ 
+}
+.cards {
+ 
+}
+.link-img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 80px;
+    position: relative;
+    right: 155px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(242, 11, 151);
+}
+.navLink{
+position: relative;
+left: 135px;
+position: relative;
+top: 20px;
+color: rgb(242, 11, 151);
+font-weight: bold;
+
+}
