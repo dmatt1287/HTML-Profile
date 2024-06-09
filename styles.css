@@ -1,29 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 
-body, html{
+body, html {
     background-color: rgb(56, 81, 122, 0.93);
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-}
-.container {
- 
-}
-.Intro-Header{
-    position: relative;
-    left: 65px;
+    font-family: alegreya;
     color: white;
-    position: relative;
-    top: 250px;
-    font-family: Alegreya;
 }
-img{
+#profileAvatar{
     border-radius: 50%;
     position: relative;
-    bottom: 100px;
+    bottom: 115px;
+    border-style: solid;
+    border-color: black;
+    position:relative;
+    left: 25px;
+}
+.nameHeader{
+    position: relative;
+    top: 200px;
     position: relative;
     left: 45px;
-    border-color: black;
-    border-style: solid;
-}
+ }
+#projectHeader{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    bottom: 300px;
     
+}
+hr {
+    width: 300px;
+    position: relative;
+    bottom: 330px;
+    height: 2px;
+    background-color: rgb(56, 81, 122, 0.93);
+}
+.card-img{
+    width: 300px;
+    height: 200px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card-img{
+    border-style: solid;
+    border-color: rgb(255, 255, 255, 0.00);
+    border-radius: 10px;
+}
+.img-caption{
+  text-align:center;
+  font-style: italic;
