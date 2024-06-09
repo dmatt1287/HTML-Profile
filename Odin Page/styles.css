@@ -1,0 +1,164 @@
+﻿body, html{
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+.section-one{
+    background-color: #1F2937;
+    height: 575px;
+}
+#section1-header{
+    margin-left: 100px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    color: #E5E7EB;
+    margin-top: 20px;
+        
+        
+}
+.right-navbar{
+    margin: 10px;
+    margin-left: 800px;
+}
+.left-navbar{
+    margin-left: 175px;
+    color: #F9FAF8;
+    margin-top: 15px;
+    
+    
+}
+#top-button {
+    background-color: #3882F6;
+    color: white;
+    border: solid #3882F6;
+    border-radius: 7px;
+    width: 115px;
+    height: 35px;
+    position: relative;
+    bottom: 275px;
+    margin-left: 100px;
+}
+.content{
+    color: white;
+    margin-top: 90px;
+    margin-left: 190px;
+    font-size: 26px;
+}
+#sect1-img {
+    margin-left: 800px;
+    position: relative;
+    bottom: 175px;
+    border-style: solid;
+    border-top-width: 5px;
+    border-color: #3c5a8f;
+    border-radius: 7px;
+    position: relative;
+    right: 160px;
+}
+#section-p{
+    font-size: 14px;
+    margin-left: 100px;
+}
+#sect2-header {
+    text-align: center;
+    margin: 35px;
+}
+.section-two{
+    height: 560px;
+}
+
+
+.section2-img {
+    height: 200px;
+    width: 300px;
+    margin: 45px;
+    border-style: solid;
+    border-color: #3c5a8f;
+    border-width: 5px;
+    border-radius: 7px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+    
+}
+.card{
+    text-align: center;
+}
+.img-caption {
+    margin: -35px;
+}
+.section-three {
+    background-color: #bec2c4;
+    height: 400px;
+}
+#quote{
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    position: relative;
+    top: 130px;
+}
+#author{
+    position:relative;
+    top: 150px;
+    position: relative;
+    left: 1200px;
+    position: relative;
+   
+}
+#blue-rectangle {
+    background-color: #3882F6;
+    width: 800px;
+    margin-left: 600px;
+    color: white;
+    position: relative;
+    top: 115px;
+    height: 100px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+}
+.section-four{
+    background-color: white;
+    height: 350px;
+}
+#bottom-button {
+    border-style: solid;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 600px;
+    width: 100px;
+    height: 26px;
+    position: relative;
+    bottom: 45px;
+}
+#box-text{
+    position: relative;
+    top: 8px;
+    position: relative;
+    left: 100px;
+
+}
+#box-P{
+    font-size: 12px;
+    position: relative;
+    bottom: 12px;
+}
