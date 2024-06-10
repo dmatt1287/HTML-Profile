@@ -1,53 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 
 body {
-    background-color: rgb(0, 180, 231);
+    background-image: url("images/bakery.jpg");
+    background-size: cover;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
     font-family: alegreya;
+    color: white;
 }
-.headerLogo {
-    width: 400px;
-    height: 300px;
-    border-style: solid;
-    border-color: rgb(242, 11, 151);
-    border-radius: 10px;
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
     position: relative;
-    left: 2px;
+    left: 365px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+main{
+    color: white;
+    font-style: italic;
+    font-size: 40px;
     position: relative;
-    top: 10px;
-}
-  .nav-links{
-      display: flex;
-      flex-direction:row;
-      justify-content: space-evenly;
-      position: relative;
-      left: 275px;
-      position: relative;
-      bottom: 300px;
- 
-}
-.cards {
- 
-}
-.link-img {
-    width: 200px;
-    height: 200px;
+    left: 400px;
     position: relative;
-    top: 80px;
+    top: 145px;
+}
+
+.FB-img{
+    height: 30px;
+    width: 30px;
     position: relative;
     right: 155px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(242, 11, 151);
-}
-.navLink{
-position: relative;
-left: 135px;
-position: relative;
-top: 20px;
-color: rgb(242, 11, 151);
-font-weight: bold;
+    position: relative;
+    bottom: 5px;
 
+    
+}
+#cakeSlice{
+    width:1000px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: rgb(217, 172, 195);
+    position: relative;
+    right: 15px;
+    position: relative;
+    bottom: 30px;
 }
