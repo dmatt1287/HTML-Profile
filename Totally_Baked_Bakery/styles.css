@@ -55,3 +55,6 @@ main{
     bottom: 30px;
     opacity: 0.3;
 }
+a:visited{
+    color: white;
+}
