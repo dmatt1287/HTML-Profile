@@ -4,7 +4,7 @@
     color: white;
     gap: 65px;
     position: relative;
-    left: 25%;
+    left: 4px;
     position: relative;
     top: 4%;
    
@@ -12,29 +12,31 @@
 .nav_list a{
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
 .side_bar {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
+    width: 200px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #111; 
+    background-color: rgb(30, 30, 30); 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
 .icons{
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 62px;
     position: relative;
-    bottom: 278px;
+    bottom: 280px;
     position: relative;
-    left: 15px;
+    left: 75%;
+    
    
 }
 #nav_header{
@@ -57,8 +59,8 @@ hr{
 }
 #task_header{
     position: relative;
-    left: 200px;
+    left: 235px;
     position: relative;
     top: 35px;
-    font-size: 32px;
+    font-size: 2em;
 }
