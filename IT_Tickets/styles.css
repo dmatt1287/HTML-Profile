@@ -1,0 +1,58 @@
+.nav_list{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 65px;
+    position: relative;
+    left: 50px;
+    position: relative;
+    top: 35px;
+}
+.side_bar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+.icons{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+    bottom: 278px;
+    position: relative;
+    left: 15px;
+   
+}
+#nav_header{
+    color: white;
+    position: relative;
+    left: 30px;
+}
+hr{
+    height: 3px;
+    width: 110px;
+    position: relative;
+    right: 8px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 35px;
+}
+#task_header{
+    position: relative;
+    left: 200px;
+    position: relative;
+    top: 35px;
+    font-size: 32px;
+}
