@@ -8,6 +8,15 @@ body, html {
     font-family: alegreya;
     color: white;
 }
+#nav_list{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    position: relative;
+    bottom: 20px;
+    position: relative;
+    left: 35%;
+ }
 #profileAvatar{
     border-radius: 50%;
     position: relative;
@@ -27,13 +36,13 @@ body, html {
     text-align: center;
     font-size: 40px;
     position: relative;
-    bottom: 300px;
+    bottom: 200px;
     
 }
 hr {
     width: 300px;
     position: relative;
-    bottom: 330px;
+    bottom: 215px;
     height: 2px;
     background-color: rgb(56, 81, 122, 0.93);
 }
