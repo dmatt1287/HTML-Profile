@@ -7,21 +7,12 @@ body {
     background-image: url("images/lake.jpg");
     background-repeat:no-repeat;
     background-size:cover;
-    opacity: 0.5;
-    
-}
-
-#home_icon{
-    margin-left: 10%;
-    position: relative;
-    top: 30px;
-    font-size: 24px;
 }
 #nav_list{
     display: flex;
     flex-direction: row;
     gap: 400px;
-    margin-left: 20%;
+    margin-left: 21%
 }
 .main_text {
     margin-left: 25%;
@@ -56,4 +47,21 @@ body {
     border-style: solid;
     height: 400px;
     width: 400px;
+}
+.tile_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.tiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative; top: 200px;
+    
+}
+.img_caption{
+    color: black;
+    font-weight: bolder;
+    text-align:center;
 }
