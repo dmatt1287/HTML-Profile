@@ -28,6 +28,7 @@ body {
     border-radius: 4px;
     color: white;   
     background-color: rgb(30, 30, 30);
+    opacity: 0.5;
     
 }
 #nav_list a {
