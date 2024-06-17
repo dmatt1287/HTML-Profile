@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
     font-family: alegreya;
     color: white;
-    opacity: 0.5;
+    
 }
 .nav-list {
     display: flex;
@@ -44,11 +44,12 @@ main{
     height: 500px;
     border-style: solid;
     border-radius: 14px;
-    border-color: #ffffff4b;
+    border-color: rgb(237, 196, 216, 0.00);
     position: relative;
     right: 15px;
     position: relative;
     bottom: 30px;
+    opacity: 0.6;
     
 }
 .nav-list a{
@@ -80,4 +81,15 @@ main{
     right: 755px;
     bottom: 50px;
 }
-
+.page_home{
+    margin-left: 45%;
+    position: relative; top: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#home_icon{
+    color: white;
+    position: relative; right: 100px;
+    position: relative; top: 10px;
+}
