@@ -33,7 +33,7 @@ body {
     border-radius: 4px;
     color: white;   
     background-color: rgb(30, 30, 30);
-    opacity: 0.8;
+    opacity: 1.0;
     border-color: black;
     font-weight: bold;
     
@@ -73,5 +73,5 @@ body {
     color: rgb(30, 30, 30);
     font-weight: bolder;
     text-align:center;
-    opacity: 0.8;
+    opacity: 1.0;
 }
