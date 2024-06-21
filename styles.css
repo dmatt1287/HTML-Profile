@@ -7,6 +7,7 @@ body {
     background-image: url("images/lake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family: Roboto;
 }
 #nav_list{
