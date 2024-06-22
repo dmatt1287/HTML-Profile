@@ -36,6 +36,7 @@ body {
     opacity: 1.0;
     border-color: black;
     font-weight: bold;
+    height: 35px;
     
 }
 #nav_list a {
