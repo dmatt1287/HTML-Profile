@@ -70,8 +70,15 @@ body {
     position: relative; top: 200px;
     
 }
+.tiles-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 300px;
+}
 .img_caption{
-    color: rgb(30, 30, 30);
+    color: white;
     font-weight: bolder;
     text-align:center;
     opacity: 1.0;
