@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+body {
+    background-image: url("blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+#icon{
+    color: white;
+    font-size: 40px;
+    margin-left: 5%;
+    position: relative;
+    top: 20px;
+}
+.nav-header-links{
+    display: flex;
+    flex-direction: row;
+    gap: 235px;
+    margin-left: 25%;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+.nav-header-links a {
+        text-decoration: none;
+        color: white;
+        opacity: 0.6;
+}
+.form-box-login {
+        margin-left: 41%;
+        margin-right: 45%;
+        margin-top: 10%;
+        border-style: solid;
+        height: 360px;
+        width: 350px;
+        border-color: rgb(255, 255, 255, 0.12);
+        border-radius: 12px;
+        text-align: center;
+        opacity: 0.8;
+        background-color: rgb(255, 255, 255, 0.11);
+
+}
+#log-btn{
+   width: 100px; 
+   height: 25px;
+   border-radius: 4px;
+   border-style: solid;
+   border-color: rgb(0, 0, 0, 0.80);
+   opacity: 0.8;
+   background-color: black;
+   color: white;
+   position: relative;
+   top: 80px;
+}
+.form-box-login a{
+    color: black;
+}
+.form-box-login h2{
+    font-size: 40px;
+    opacity: 0.8;
+}
+.form-box-login input{
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255, 0.81);
+    height: 25px;
+    
+    
+}
+.form-box-login p{
+    position: relative;
+    top: 115px;
+}
+
+
+#pwd-input{
+    position: relative;
+    top: 45px;
+}
+#user-input{
+    position: relative;
+    top: 20px;
+}
+#pwd-icon{
+    position: relative;
+    top: 45px;
+}
+#user-icon{
+    position: relative;
+    top: 20px;
+}
