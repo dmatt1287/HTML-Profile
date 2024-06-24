@@ -4,97 +4,106 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: Roboto;
 }
-
 body {
-    background-image: url("blue.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("images/blue.jpg");
+    background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    overflow-x: hidden;
 }
-#icon{
-    color: white;
-    font-size: 40px;
-    margin-left: 5%;
-    position: relative;
-    top: 20px;
-}
-.nav-header-links{
+.header-nav{
     display: flex;
     flex-direction: row;
-    gap: 235px;
-    margin-left: 25%;
-    font-size: 18px;
-    font-weight: bold;
     position: relative;
-    bottom: 10px;
+    bottom: 450px;
+    gap: 300px;
+    margin-left: 25%;
 }
-.nav-header-links a {
-        text-decoration: none;
-        color: white;
-        opacity: 0.6;
+.header-nav a{
+    text-decoration: none;
+    color: white;
 }
-.form-box-login {
-        margin-left: 41%;
-        margin-right: 45%;
-        margin-top: 10%;
-        border-style: solid;
-        height: 360px;
-        width: 350px;
-        border-color: rgb(255, 255, 255, 0.12);
-        border-radius: 12px;
-        text-align: center;
-        opacity: 0.8;
-        background-color: rgb(255, 255, 255, 0.11);
 
+.wrapper{
+    width: 420px;
+    background: transparent;
+    color: white;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255, 0.6);
+    position: relative;
+    right: 400px;
 }
-#log-btn{
-   width: 100px; 
-   height: 25px;
-   border-radius: 4px;
-   border-style: solid;
-   border-color: rgb(0, 0, 0, 0.80);
-   opacity: 0.8;
-   background-color: black;
-   color: white;
-   position: relative;
-   top: 80px;
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.8);
 }
-.form-box-login a{
-    color: black;
+.wrapper a{
+    color: white;
+    text-decoration: none;
 }
-.form-box-login h2{
-    font-size: 40px;
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-style: solid;
+    border-color: rgb(255, 255, 255, 0.12);
+    border-radius: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.input-box i{
+    position:  absolute;
+    right: 35px;
+    top: 30%;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+    padding: 20px 20px;
+    
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    color: white;
+    background-color: rgb(30, 30, 30, 0.8);
     opacity: 0.8;
 }
-.form-box-login input{
-    border-radius: 8px;
-    background-color: rgb(255, 255, 255, 0.81);
-    height: 25px;
-    
-    
+.register-link{
+    text-align: center;
 }
-.form-box-login p{
+#icon{
     position: relative;
-    top: 115px;
-}
-
-
-#pwd-input{
-    position: relative;
-    top: 45px;
-}
-#user-input{
-    position: relative;
-    top: 20px;
-}
-#pwd-icon{
-    position: relative;
-    top: 45px;
-}
-#user-icon{
-    position: relative;
-    top: 20px;
+    bottom: 425px;
+    right: 300px;
+    font-size: 3rem;
+    color: white;
 }
